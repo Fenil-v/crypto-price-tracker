@@ -9,8 +9,8 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, setSearchTerm }) => {
   return (
     <input
       type="text"
-      className="form-control mb-3"
-      placeholder="Search cryptocurrency..."
+      className="form-control my-3"
+      placeholder="Search for a cryptocurrency..."
       value={searchTerm}
       onChange={(e) => setSearchTerm(e.target.value)}
     />

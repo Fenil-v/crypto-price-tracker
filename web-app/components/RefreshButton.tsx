@@ -6,8 +6,8 @@ interface RefreshButtonProps {
 
 const RefreshButton: React.FC<RefreshButtonProps> = ({ onRefresh }) => {
   return (
-    <button className="btn btn-primary my-3" onClick={onRefresh}>
-      Refresh Prices
+    <button className="btn btn-primary mb-3" onClick={onRefresh}>
+      Refresh Prices 🔄
     </button>
   );
 };

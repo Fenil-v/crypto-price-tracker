@@ -1,27 +1,24 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_CRYPTO_API_URL || '';
-if (!API_URL) {
-  throw new Error('NEXT_PUBLIC_CRYPTO_API_URL is not defined');
+export interface Crypto {
+  id: string;
+  name: string;
+  symbol: string;
+  current_price: number;
+  image: string;
 }
 
-export interface CryptoPrices {
-  [key: string]: {
-    usd: number;
-  };
-}
-
-export const fetchCryptoPrices = async (): Promise<CryptoPrices> => {
+export const fetchCryptoPrices = async (): Promise<Crypto[]> => {
   try {
-    const response = await axios.get<CryptoPrices>(API_URL, {
-      params: {
-        ids: 'bitcoin,ethereum,ripple,cardano,solana',
-        vs_currencies: 'usd',
-      },
-    });
+    const apiUrl = process.env.NEXT_PUBLIC_CRYPTO_API_URL;
+    console.log(apiUrl);
+    if (!apiUrl) {
+      throw new Error('NEXT_PUBLIC_API_URL is not defined');
+    }
+    const response = await axios.get(apiUrl);
+    
     return response.data;
   } catch (error) {
-    console.error('Error fetching crypto prices:', error);
-    throw error;
+    throw new Error('Failed to fetch cryptocurrency prices with Axios');
   }
 };
