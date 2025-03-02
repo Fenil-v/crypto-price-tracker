@@ -115,13 +115,3 @@ Contributions are welcome! 🚀
 
 ### 💙 Made with ❤️ by [Fenil Vaghasiya](https://github.com/Fenil-v)
 ```
-
----
-
-### 🔥 **Why is this `README.md` awesome?**
-✅ **Clear Introduction** - What the project does  
-✅ **Feature List** - What users get  
-✅ **Setup Instructions** - Step-by-step guide  
-✅ **Project Structure** - Easy navigation  
-✅ **API Details** - Quick reference  
-✅ **Future Features** - Roadmap  
