@@ -113,5 +113,4 @@ Contributions are welcome! 🚀
 
 ---
 
-### 💙 Made with ❤️ by [Fenil Vaghasiya](https://github.com/Fenil-v)
-```
+### Made with ❤️ by [Fenil Vaghasiya](https://github.com/Fenil-v)
