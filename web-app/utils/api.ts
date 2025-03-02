@@ -14,7 +14,7 @@ export const fetchCryptoPrices = async (): Promise<Crypto[]> => {
     
     // Check if the API URL is defined
     if (!apiUrl) {
-      throw new Error('NEXT_PUBLIC_API_URL is not defined');
+      throw new Error('api url is not defined');
     }
     const response = await axios.get(apiUrl);
     
