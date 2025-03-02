@@ -11,7 +11,8 @@ export interface Crypto {
 export const fetchCryptoPrices = async (): Promise<Crypto[]> => {
   try {
     const apiUrl = process.env.NEXT_PUBLIC_CRYPTO_API_URL;
-    console.log(apiUrl);
+    
+    // Check if the API URL is defined
     if (!apiUrl) {
       throw new Error('NEXT_PUBLIC_API_URL is not defined');
     }
