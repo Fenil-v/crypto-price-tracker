@@ -1,7 +1,7 @@
 ```markdown
 # 🚀 Crypto Price Tracker
 
-A **Next.js & TypeScript** application that fetches live cryptocurrency prices using **React Query** and provides features like **search, sorting, and auto-refresh**.  
+A Next.js & TypeScript application that fetches live cryptocurrency prices using React Query and provides features like search, sorting, and auto-refresh.  
 
 ![Crypto Price Tracker](https://imgur.com/Wi2uBZG.png) 
 
@@ -9,40 +9,40 @@ A **Next.js & TypeScript** application that fetches live cryptocurrency prices u
 
 ## 🌟 Features
 
-✅ **Live Crypto Prices** - Fetches real-time data from an API  
-✅ **Search Functionality** - Easily filter cryptocurrencies by name  
-✅ **Sorting** - Sort coins by **name** or **price (ascending/descending)**  
-✅ **Auto-Refresh** - Refresh data at the click of a button  
-✅ **Responsive UI** - Optimized for both desktop and mobile  
+✅ Live Crypto Prices - Fetches real-time data from an API  
+✅ Search Functionality - Easily filter cryptocurrencies by name  
+✅ Sorting - Sort coins by name or price (ascending/descending)  
+✅ Auto-Refresh - Refresh data at the click of a button  
+✅ Responsive UI - Optimized for both desktop and mobile  
 
 ---
 
 ## 📦 Tech Stack
 
-- **Next.js** - React-based framework for SSR  
-- **TypeScript** - Strongly typed JavaScript  
-- **React Query** - Efficient data fetching & caching  
-- **Bootstrap** - Responsive styling  
-- **React Spinners** - Loading indicators  
+- Next.js - React-based framework for SSR  
+- TypeScript - Strongly typed JavaScript  
+- React Query - Efficient data fetching & caching  
+- Bootstrap - Responsive styling  
+- React Spinners - Loading indicators  
 
 ---
 
 ## 🚀 Installation & Setup
 
-1️⃣ **Clone the Repository**
+1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/your-username/crypto-price-tracker.git
 cd crypto-price-tracker
 ```
 
-2️⃣ **Install Dependencies**
+2️⃣ Install Dependencies
 ```sh
 npm install
 # or
 yarn install
 ```
 
-3️⃣ **Start the Development Server**
+3️⃣ Start the Development Server
 ```sh
 npm run dev
 # or
@@ -77,7 +77,7 @@ yarn dev
 
 ## 📡 API Integration
 
-This project fetches cryptocurrency data from **CoinGecko API**.  
+This project fetches cryptocurrency data from CoinGecko API.  
 To modify API settings, check `utils/api.ts`.  
 
 ```ts
@@ -91,9 +91,9 @@ export const fetchCryptoPrices = async (): Promise<Crypto[]> => {
 
 ## 🛠️ Future Enhancements
 
-🔹 Add **dark mode**  
-🔹 Implement **historical price charts**  
-🔹 Add **favorite coins tracking**  
+🔹 Add dark mode  
+🔹 Implement historical price charts  
+🔹 Add favorite coins tracking  
 
 ---
 
@@ -103,7 +103,7 @@ Contributions are welcome! 🚀
 1. Fork the repository  
 2. Create a new branch (`feature-xyz`)  
 3. Commit your changes  
-4. Open a **Pull Request**  
+4. Open a Pull Request  
 
 ---
 
